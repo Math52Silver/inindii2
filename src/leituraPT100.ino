@@ -16,7 +16,7 @@ double getTempRTD(int pin)
 
   double r = ((double)rb) / ((1.0 / k) - 1.0);
 
-  return (((r / 100.0) - 1.0) / 0.0038459);
+  return (((r / 100.0) - 1.0) / 0.0038454);
 }
 
 void printRTDValue()
